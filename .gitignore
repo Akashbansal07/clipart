@@ -1,0 +1,48 @@
+# 1. Remove the file with the API key
+rm -f api/generate.js
+
+# 2. Reset Git history completely (nuclear option)
+rm -rf .git
+
+# 3. Re-initialize Git
+git init
+
+# 4. Make sure .gitignore is correct FIRST
+cat > .gitignore << 'EOF'
+# Expo
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+*.env
+backend/.env
+
+# API and secrets
+api/
+vercel.json
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+build/
