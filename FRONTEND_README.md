@@ -406,21 +406,8 @@ These are configured in `app.json`.
 - Use meaningful variable names
 - Keep components small and focused
 
-## 📄 License
 
-[Add your license here]
 
-## 🙋 Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Contact: [your-email@example.com]
-
-## 🔗 Links
-
-- Backend Repository: [Link to backend repo]
-- Production App: [Link to app store]
-- Documentation: [Link to docs]
 
 ---
 
