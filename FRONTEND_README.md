@@ -4,7 +4,7 @@ Transform your photos into stunning clipart styles using AI-powered image genera
 
 ## 🚀 Features
 
-- **6 Artistic Styles**: Cartoon, Anime, Pixel Art, Flat Design, Sketch, and Remove Background
+- **6 Artistic Styles**: Cartoon, Anime, Pixel Art, Flat Design, Sketch
 - **Adjustable Intensity**: Control the strength of style transformation (0-100%)
 - **Multi-Style Generation**: Generate multiple styles simultaneously
 - **Professional UI**: Modern design with skeleton loaders and smooth animations
